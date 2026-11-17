@@ -1,415 +1,413 @@
-\<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#050B18">
 
-\<html lang="en"> \<head>     \<meta charset="UTF-8">     \<meta name="viewport" content="width=device-width, initial-scale=1.0">     \<meta name="theme-color" content="#050B18">
+    <title>NTCM | NexTec Commtech Models</title>
 
-```
-<title>NTCM | NexTec Commtech Models</title>
+    <meta name="description" content="NexTec Commtech Models — Discord management tools designed to simplify server administration.">
 
-<meta name="description" content="NexTec Commtech Models — Discord management tools designed to simplify server administration.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
 
-<link rel="stylesheet" href="style.css">
-```
+<body>
 
-\</head>
+    <!-- Background Effects -->
+    <div class="background-effects">
+        <div class="glow glow-one"></div>
+        <div class="glow glow-two"></div>
+        <div class="grid-overlay"></div>
+    </div>
 
-\<body>
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar">
 
-```
-<!-- Background Effects -->
-<div class="background-effects">
-    <div class="glow glow-one"></div>
-    <div class="glow glow-two"></div>
-    <div class="grid-overlay"></div>
-</div>
+            <a href="#home" class="brand">
+                <span class="brand-icon">N</span>
+                <span class="brand-text">NTCM<span>.</span></span>
+            </a>
 
-<!-- Navigation -->
-<header class="header">
-    <nav class="navbar">
-
-        <a href="#home" class="brand">
-            <span class="brand-icon">N</span>
-            <span class="brand-text">NTCM<span>.</span></span>
-        </a>
-
-        <div class="nav-links" id="nav-menu">
-            <a href="#home">Home</a>
-            <a href="#products">Products</a>
-            <a href="#pricing">Pricing</a>
-            <a href="#how-it-works">How It Works</a>
-            <a href="#support" class="nav-contact">Support ↗</a>
-        </div>
-
-        <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
-
-    </nav>
-</header>
-
-<main>
-
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-
-        <div class="hero-content">
-
-            <div class="hero-badge">
-                <span class="status-dot"></span>
-                Discord Management Solutions
+            <div class="nav-links" id="nav-menu">
+                <a href="#home">Home</a>
+                <a href="#products">Products</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#how-it-works">How It Works</a>
+                <a href="https://discord.gg/U6FpEDqWb6" target="_blank" rel="noopener noreferrer" class="nav-contact">Support ↗</a>
             </div>
 
-            <h1>
-                Simplifying
-                <span>Discord Management.</span>
-            </h1>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <div class="hero-badge">
+                    <span class="status-dot"></span>
+                    Discord Management Solutions
+                </div>
+
+                <h1>
+                    Simplifying
+                    <span>Discord Management.</span>
+                </h1>
+
+                <p>
+                    Powerful, practical and reliable tools built to make
+                    managing Discord communities easier. Meet the next
+                    generation of server management utilities.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#products" class="btn primary">
+                        Explore Products →
+                    </a>
+
+                    <a href="#how-it-works" class="btn secondary">
+                        How It Works
+                    </a>
+                </div>
+
+                <div class="hero-note">
+                    <span class="note-line"></span>
+                    Built for communities. Designed for simplicity.
+                </div>
+
+            </div>
+
+            <div class="hero-visual">
+
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+
+                <div class="hero-logo">
+                    <span>N</span>
+                </div>
+
+                <div class="floating-card card-top">
+                    <div class="floating-icon">⚙</div>
+                    <div>
+                        <strong>Server Management</strong>
+                        <small>Made simpler.</small>
+                    </div>
+                </div>
+
+                <div class="floating-card card-bottom">
+                    <div class="floating-icon">✦</div>
+                    <div>
+                        <strong>NTCM Utilities</strong>
+                        <small>One ecosystem.</small>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <div class="section-divider"></div>
+
+        <!-- Products Section -->
+        <section class="section products" id="products">
+
+            <div class="section-heading">
+                <span class="eyebrow">OUR ECOSYSTEM</span>
+
+                <h2>
+                    Tools that work
+                    <span>together.</span>
+                </h2>
+
+                <p>
+                    Explore our collection of Discord utilities,
+                    each designed to solve a different server
+                    management challenge.
+                </p>
+            </div>
+
+            <div class="product-grid">
+
+                <!-- RolesMonkey -->
+                <article class="product-card">
+
+                    <div class="product-top">
+                        <span class="product-number">01 / PRODUCT</span>
+                        <span class="product-category">ROLE MANAGEMENT</span>
+                    </div>
+
+                    <div class="product-symbol">R</div>
+
+                    <h3>RolesMonkey</h3>
+
+                    <p>
+                        A role management utility designed to simplify
+                        role creation, organisation and administration
+                        across your Discord server.
+                    </p>
+
+                    <a href="https://discord.gg/U6FpEDqWb6" target="_blank" rel="noopener noreferrer" class="product-link">
+                        Enquire Now <span>→</span>
+                    </a>
+
+                </article>
+
+                <!-- ChannelCat -->
+                <article class="product-card">
+
+                    <div class="product-top">
+                        <span class="product-number">02 / PRODUCT</span>
+                        <span class="product-category">SERVER ORGANISATION</span>
+                    </div>
+
+                    <div class="product-symbol">C</div>
+
+                    <h3>ChannelCat</h3>
+
+                    <p>
+                        Organise your Discord server with structured
+                        categories and channels using simple,
+                        configurable layouts.
+                    </p>
+
+                    <a href="https://discord.gg/U6FpEDqWb6" target="_blank" rel="noopener noreferrer" class="product-link">
+                        Enquire Now <span>→</span>
+                    </a>
+
+                </article>
+
+                <!-- Nexus -->
+                <article class="product-card featured-card">
+
+                    <div class="featured-label">FLAGSHIP PRODUCT</div>
+
+                    <div class="product-top">
+                        <span class="product-number">03 / PRODUCT</span>
+                        <span class="product-category">ALL-IN-ONE</span>
+                    </div>
+
+                    <div class="product-symbol">N</div>
+
+                    <h3>Nexus</h3>
+
+                    <p>
+                        Bringing role and channel management together
+                        into one combined solution for easier
+                        Discord server administration.
+                    </p>
+
+                    <a href="https://discord.gg/U6FpEDqWb6" target="_blank" rel="noopener noreferrer" class="product-link">
+                        Enquire Now <span>→</span>
+                    </a>
+
+                </article>
+
+                <!-- AustrianArtist -->
+                <article class="product-card">
+
+                    <div class="product-top">
+                        <span class="product-number">04 / PRODUCT</span>
+                        <span class="product-category">ROLE CUSTOMISATION</span>
+                    </div>
+
+                    <div class="product-symbol">A</div>
+
+                    <h3>AustrianArtist</h3>
+
+                    <p>
+                        A role colour assignment utility that makes
+                        customising and managing Discord role colours
+                        easier.
+                    </p>
+
+                    <a href="https://discord.gg/U6FpEDqWb6" target="_blank" rel="noopener noreferrer" class="product-link">
+                        Enquire Now <span>→</span>
+                    </a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <div class="section-divider"></div>
+
+        <!-- Pricing Section -->
+        <section class="section pricing-section" id="pricing">
+
+            <div class="pricing-content">
+
+                <span class="eyebrow">ACCESS & AVAILABILITY</span>
+
+                <h2>
+                    Straightforward
+                    <span>access.</span>
+                </h2>
+
+                <p>
+                    Product access, pricing and activation are handled
+                    through direct enquiries. Contact our team to
+                    discuss availability, configuration and setup.
+                </p>
+
+                <a href="https://discord.gg/U6FpEDqWb6" target="_blank" rel="noopener noreferrer" class="btn primary">
+                    Contact for Access →
+                </a>
+
+            </div>
+
+            <div class="pricing-decoration">
+                <div class="pricing-circle"></div>
+                <div class="pricing-circle circle-two"></div>
+            </div>
+
+        </section>
+
+        <div class="section-divider"></div>
+
+        <!-- How It Works -->
+        <section class="section process-section" id="how-it-works">
+
+            <div class="section-heading">
+
+                <span class="eyebrow">GETTING STARTED</span>
+
+                <h2>
+                    From enquiry to
+                    <span>activation.</span>
+                </h2>
+
+                <p>
+                    Getting started with NTCM products is simple.
+                </p>
+
+            </div>
+
+            <div class="process-grid">
+
+                <div class="process-card">
+                    <span>01</span>
+                    <h3>Explore</h3>
+                    <p>
+                        Browse our available products and
+                        find the utility that suits your needs.
+                    </p>
+                </div>
+
+                <div class="process-card">
+                    <span>02</span>
+                    <h3>Enquire</h3>
+                    <p>
+                        Contact our team through Discord
+                        to discuss product access.
+                    </p>
+                </div>
+
+                <div class="process-card">
+                    <span>03</span>
+                    <h3>Configure</h3>
+                    <p>
+                        Discuss configuration and setup
+                        requirements with our team.
+                    </p>
+                </div>
+
+                <div class="process-card">
+                    <span>04</span>
+                    <h3>Activate</h3>
+                    <p>
+                        Complete the activation process
+                        and get started.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <div class="section-divider"></div>
+
+        <!-- Support Section -->
+        <section class="section support-section" id="support">
+
+            <div class="support-box">
+
+                <div class="support-glow"></div>
+
+                <span class="eyebrow">NEED ASSISTANCE?</span>
+
+                <h2>
+                    Let's get your
+                    <span>server sorted.</span>
+                </h2>
+
+                <p>
+                    Have a question about our products, need assistance
+                    or want to enquire about access? Reach out to the
+                    NTCM team through our Discord support community.
+                </p>
+
+                <a href="https://discord.gg/U6FpEDqWb6" class="btn primary" id="discordButton" target="_blank" rel="noopener noreferrer">
+                    Join Our Discord →
+                </a>
+
+                <small class="support-note">
+                    Product enquiries · Assistance · Updates
+                </small>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="footer-main">
+
+            <a href="#home" class="brand footer-brand">
+                <span class="brand-icon">N</span>
+                <span class="brand-text">NTCM<span>.</span></span>
+            </a>
 
             <p>
-                Powerful, practical and reliable tools built to make
-                managing Discord communities easier. Meet the next
-                generation of server management utilities.
+                NexTec Commtech Models.<br>
+                Practical tools. Simpler management.
             </p>
 
-            <div class="hero-buttons">
-                <a href="#products" class="btn primary">
-                    Explore Products →
-                </a>
-
-                <a href="#how-it-works" class="btn secondary">
-                    How It Works
-                </a>
-            </div>
-
-            <div class="hero-note">
-                <span class="note-line"></span>
-                Built for communities. Designed for simplicity.
-            </div>
-
         </div>
 
-        <div class="hero-visual">
+        <div class="footer-bottom">
 
-            <div class="orbit orbit-one"></div>
-            <div class="orbit orbit-two"></div>
+            <span>
+                © <span id="year"></span> NexTec Commtech Models.
+                All rights reserved.
+            </span>
 
-            <div class="hero-logo">
-                <span>N</span>
-            </div>
-
-            <div class="floating-card card-top">
-                <div class="floating-icon">⚙</div>
-                <div>
-                    <strong>Server Management</strong>
-                    <small>Made simpler.</small>
-                </div>
-            </div>
-
-            <div class="floating-card card-bottom">
-                <div class="floating-icon">✦</div>
-                <div>
-                    <strong>NTCM Utilities</strong>
-                    <small>One ecosystem.</small>
-                </div>
-            </div>
-
-        </div>
-
-    </section>
-
-    <div class="section-divider"></div>
-
-    <!-- Products Section -->
-    <section class="section products" id="products">
-
-        <div class="section-heading">
-            <span class="eyebrow">OUR ECOSYSTEM</span>
-
-            <h2>
-                Tools that work
-                <span>together.</span>
-            </h2>
-
-            <p>
-                Explore our collection of Discord utilities,
-                each designed to solve a different server
-                management challenge.
-            </p>
-        </div>
-
-        <div class="product-grid">
-
-            <!-- RolesMonkey -->
-            <article class="product-card">
-
-                <div class="product-top">
-                    <span class="product-number">01 / PRODUCT</span>
-                    <span class="product-category">ROLE MANAGEMENT</span>
-                </div>
-
-                <div class="product-symbol">R</div>
-
-                <h3>RolesMonkey</h3>
-
-                <p>
-                    A role management utility designed to simplify
-                    role creation, organisation and administration
-                    across your Discord server.
-                </p>
-
-                <a href="#support" class="product-link">
-                    Enquire Now <span>→</span>
-                </a>
-
-            </article>
-
-            <!-- ChannelCat -->
-            <article class="product-card">
-
-                <div class="product-top">
-                    <span class="product-number">02 / PRODUCT</span>
-                    <span class="product-category">SERVER ORGANISATION</span>
-                </div>
-
-                <div class="product-symbol">C</div>
-
-                <h3>ChannelCat</h3>
-
-                <p>
-                    Organise your Discord server with structured
-                    categories and channels using simple,
-                    configurable layouts.
-                </p>
-
-                <a href="#support" class="product-link">
-                    Enquire Now <span>→</span>
-                </a>
-
-            </article>
-
-            <!-- Nexus -->
-            <article class="product-card featured-card">
-
-                <div class="featured-label">FLAGSHIP PRODUCT</div>
-
-                <div class="product-top">
-                    <span class="product-number">03 / PRODUCT</span>
-                    <span class="product-category">ALL-IN-ONE</span>
-                </div>
-
-                <div class="product-symbol">N</div>
-
-                <h3>Nexus</h3>
-
-                <p>
-                    Bringing role and channel management together
-                    into one combined solution for easier
-                    Discord server administration.
-                </p>
-
-                <a href="#support" class="product-link">
-                    Enquire Now <span>→</span>
-                </a>
-
-            </article>
-
-            <!-- AustrianArtist -->
-            <article class="product-card">
-
-                <div class="product-top">
-                    <span class="product-number">04 / PRODUCT</span>
-                    <span class="product-category">ROLE CUSTOMISATION</span>
-                </div>
-
-                <div class="product-symbol">A</div>
-
-                <h3>AustrianArtist</h3>
-
-                <p>
-                    A role colour assignment utility that makes
-                    customising and managing Discord role colours
-                    easier.
-                </p>
-
-                <a href="#support" class="product-link">
-                    Enquire Now <span>→</span>
-                </a>
-
-            </article>
-
-        </div>
-
-    </section>
-
-    <div class="section-divider"></div>
-
-    <!-- Pricing Section -->
-    <section class="section pricing-section" id="pricing">
-
-        <div class="pricing-content">
-
-            <span class="eyebrow">ACCESS & AVAILABILITY</span>
-
-            <h2>
-                Straightforward
-                <span>access.</span>
-            </h2>
-
-            <p>
-                Product access, pricing and activation are handled
-                through direct enquiries. Contact our team to
-                discuss availability, configuration and setup.
-            </p>
-
-            <a href="#support" class="btn primary">
-                Contact for Access →
+            <a href="#home" class="back-top">
+                Back to top ↑
             </a>
 
         </div>
 
-        <div class="pricing-decoration">
-            <div class="pricing-circle"></div>
-            <div class="pricing-circle circle-two"></div>
-        </div>
+    </footer>
 
-    </section>
+    <script src="script.js"></script>
 
-    <div class="section-divider"></div>
-
-    <!-- How It Works -->
-    <section class="section process-section" id="how-it-works">
-
-        <div class="section-heading">
-
-            <span class="eyebrow">GETTING STARTED</span>
-
-            <h2>
-                From enquiry to
-                <span>activation.</span>
-            </h2>
-
-            <p>
-                Getting started with NTCM products is simple.
-            </p>
-
-        </div>
-
-        <div class="process-grid">
-
-            <div class="process-card">
-                <span>01</span>
-                <h3>Explore</h3>
-                <p>
-                    Browse our available products and
-                    find the utility that suits your needs.
-                </p>
-            </div>
-
-            <div class="process-card">
-                <span>02</span>
-                <h3>Enquire</h3>
-                <p>
-                    Contact our team through Discord
-                    to discuss product access.
-                </p>
-            </div>
-
-            <div class="process-card">
-                <span>03</span>
-                <h3>Configure</h3>
-                <p>
-                    Discuss configuration and setup
-                    requirements with our team.
-                </p>
-            </div>
-
-            <div class="process-card">
-                <span>04</span>
-                <h3>Activate</h3>
-                <p>
-                    Complete the activation process
-                    and get started.
-                </p>
-            </div>
-
-        </div>
-
-    </section>
-
-    <div class="section-divider"></div>
-
-    <!-- Support Section -->
-    <section class="section support-section" id="support">
-
-        <div class="support-box">
-
-            <div class="support-glow"></div>
-
-            <span class="eyebrow">NEED ASSISTANCE?</span>
-
-            <h2>
-                Let's get your
-                <span>server sorted.</span>
-            </h2>
-
-            <p>
-                Have a question about our products, need assistance
-                or want to enquire about access? Reach out to the
-                NTCM team through our Discord support community.
-            </p>
-
-            <a href="#" class="btn primary" id="discordButton">
-                Join Our Discord →
-            </a>
-
-            <small class="support-note">
-                Product enquiries · Assistance · Updates
-            </small>
-
-        </div>
-
-    </section>
-
-</main>
-
-<!-- Footer -->
-<footer class="footer">
-
-    <div class="footer-main">
-
-        <a href="#home" class="brand footer-brand">
-            <span class="brand-icon">N</span>
-            <span class="brand-text">NTCM<span>.</span></span>
-        </a>
-
-        <p>
-            NexTec Commtech Models.<br>
-            Practical tools. Simpler management.
-        </p>
-
-    </div>
-
-    <div class="footer-bottom">
-
-        <span>
-            © <span id="year"></span> NexTec Commtech Models.
-            All rights reserved.
-        </span>
-
-        <a href="#home" class="back-top">
-            Back to top ↑
-        </a>
-
-    </div>
-
-</footer>
-
-<script src="script.js"></script>
-```
-
-\</body>
-\</html>
+</body>
+</html>
